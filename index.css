@@ -2,11 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+
+
+
+
+
+
 /*HEADER*/
-
-
-
-
 
 
 .topnav a {
@@ -17,9 +19,8 @@
   padding: 1px 12px;
   text-decoration: none;
   font-size: 25px;
+} 
 
- 
-}
 
 #active {
   color: white;
@@ -56,6 +57,12 @@
 }
 
 
+.navbar-toggler-icon{
+background-color: #51D1F6;
+border-radius: 3px;
+}
+
+
 
 @media screen and (max-width:800px) {
 
@@ -73,22 +80,6 @@
     margin-left: 1px;
 
   }
-
-  .navbar-toggler-icon {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    background-image: var(--bs-navbar-toggler-icon-bg);
-    border-radius: 5px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    background-color: #51D1F6;
-  }
-
-
-
 }
 
 
@@ -114,8 +105,6 @@
   background: #fff;
   color: #1f5cc5;
 }
-
-
 
 /* FIN DE ESTILOS HEADER */
 
@@ -148,7 +137,6 @@ hr {
   height: 10px;
   background-color: rgba(176, 219, 234, 0.541);
   border-color: rgba(176, 219, 234, 0.541);
-
 }
 
 
@@ -199,7 +187,7 @@ body {
   background: rgba(113, 166, 219, 0.16);
   margin: 100px auto 0;
   padding: 40px;
-  border-radius: 5px;
+  border-radius:10px;
 }
 
 .wrapper .header {
@@ -324,23 +312,26 @@ body {
   display: flex;
   align-items: center;
   font-size: 16px;
-  border-radius: 3px;
+  border-radius: 20px;
   transition: 0.5s ease;
   cursor: pointer;
 }
 
 .wrapper .btns_wrap .common_btns button.btn_back {
   background: var(--secondary);
+
 }
 
 .wrapper .btns_wrap .common_btns button.btn_next .icon {
   display: flex;
   margin-left: 10px;
+
 }
 
 .wrapper .btns_wrap .common_btns button.btn_back .icon {
   display: flex;
   margin-right: 10px;
+ 
 }
 
 .wrapper .btns_wrap .common_btns button.btn_next:hover,
@@ -422,26 +413,15 @@ body {
 
 
   background-color: #51D1F6;
-  border: none;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 10px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
+  border-radius: 20px; 
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*----- -----  Estilos para Validacion ----- -----*/
@@ -463,10 +443,6 @@ body {
   color: #1ed12d;
   opacity: 1;
 }
-
-
-
-
 
 
 
