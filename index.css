@@ -601,7 +601,7 @@ body {
 
 .pie-pagina {
 
-width: 100%;
+
 background-color: black;
 
 
@@ -672,7 +672,7 @@ background-color: black;
   font-size: 15px;
 }
 
-@media screen and (max-width:800px) {
+/*@media screen and (max-width:800px) {
   .pie-pagina .grupo-1 {
     width: 100%;
     grid-template-columns: repeat(1, 1fr);
