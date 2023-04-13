@@ -9,4 +9,5 @@ Los integrantes de este grupo son:
 
 Pablo Juarez - pablonjuarez84@gmail.com
 Héctor Gerardo Robledo - monchorobledo18@yahoo.com.ar
-Fabiana Alejandra Ibáñez - fabiana-ibz85@gmail.com
+Fabiana Alejandra Ibáñez - fabianaibz85@gmail.com
+
