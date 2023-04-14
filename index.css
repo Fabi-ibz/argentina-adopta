@@ -19,7 +19,7 @@
   padding: 1px 12px;
   text-decoration: none;
   font-size: 25px;
-} 
+}
 
 
 #active {
@@ -57,9 +57,9 @@
 }
 
 
-.navbar-toggler-icon{
-background-color: #51D1F6;
-border-radius: 3px;
+.navbar-toggler-icon {
+  background-color: #51D1F6;
+  border-radius: 3px;
 }
 
 
@@ -187,7 +187,7 @@ body {
   background: rgba(113, 166, 219, 0.16);
   margin: 100px auto 0;
   padding: 40px;
-  border-radius:10px;
+  border-radius: 10px;
 }
 
 .wrapper .header {
@@ -331,7 +331,7 @@ body {
 .wrapper .btns_wrap .common_btns button.btn_back .icon {
   display: flex;
   margin-right: 10px;
- 
+
 }
 
 .wrapper .btns_wrap .common_btns button.btn_next:hover,
@@ -416,7 +416,7 @@ body {
   color: white;
   padding: 10px 10px;
   text-align: center;
-  border-radius: 20px; 
+  border-radius: 20px;
 
 
 
@@ -541,5 +541,144 @@ body {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px;
+  }
+}
+
+/* FOOTER */
+
+.footer-distribucion {
+  background: black;
+  font: bold 16px sans-serif;
+  padding: 55px 22px 10px 2px;
+}
+
+
+
+/* Footer left */
+
+.footer-distribucion .footer-left {
+  width: 20%;
+}
+
+
+
+/* Footer Center */
+
+.footer-distribucion .footer-center {
+  width: 40%;
+}
+
+.footer-distribucion .footer-center i {
+  background-color: black;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+
+.footer-distribucion .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+
+
+.footer-distribucion .footer-center p a {
+  color: #51D1F6;
+  text-decoration: none;
+  ;
+}
+
+
+
+
+/* Footer Right */
+
+.footer-distribucion .footer-right {
+  width: 20%;
+}
+
+
+.footer-distribucion .siguenos span {
+
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-left: 80px;
+}
+
+
+
+.footer-distribucion .footer-iconos a:hover {
+  color: aqua;
+}
+
+
+.footer-distribucion .footer-iconos a {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  background-color: black;
+
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+
+
+@media (max-width: 880px) {
+
+  .footer-distribucion {
+    font: bold 14px sans-serif;
+  }
+
+
+  .footer-distribucion .footer-center,
+  .footer-distribucion .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .footer-distribucion .footer-center i {
+    margin-left: 0;
+  }
+
+}
+
+
+
+@media (max-width: 819px) {
+
+
+
+  .footer-distribucion .siguenos span {
+
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-right: 80px;
+
   }
 }
